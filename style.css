@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    padding: 10px;
+}
+
+.encabezado img{
+    height: 55px;
+    cursor: pointer;
+}
+
+#bg-video{
+    inset: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado .menu{
+    line-height: 55px;
+    margin-right: 10px;
+}
+
+.menu a{
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: 'Harry Potter', sans-serif;
+    color: #343434;
+}
+
+.menu .contacto{
+    background: #03346E;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.menu a:hover{
+    border-bottom: 3px solid #03346E;
+}
+
+
+.tarjeta{
+    padding: 50px;
+    display: flex;
+    justify-content:center;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarjeta img{
+    padding: 20px;
+    width: 500px;
+}
+
+.tar p{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.tar h1{
+    color: #03346E;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+section{
+    display: flex;
+    width: 1444px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+    cursor: pointer;
+    width: 350px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.tar p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.subtitulo{
+    color: #03346E ;
+    font-size: 35px;
+    text-align: left;
+}
+
+.imga{
+    display: flex;
+    justify-content: center;
+}
+
+.imga img{
+    width: 250px;
+}
+
+
+footer{
+    margin-top: 5px;
+    height: 80px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+
